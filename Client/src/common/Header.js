@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router'
+
 import '../styles/style.css'
 import Logo from '../styles/images/Logo.png'
 import Facebook from '../styles/images/Facebook.png'
@@ -10,7 +12,7 @@ class Header extends React.Component {
     render(){
         return(
         <div id="header" className={this.props.bgblue}>
-			<a href="#"><img alt="" className="logo" src={Logo} /></a>
+			<Link to={`/`}><img alt="" className="logo" src={Logo} /></Link>
 			<div className="headoption">
 				<a href="#" className="hmore">Learn More</a>
 				<a href="#" className="hrent">ปล่อยรถเช่า</a>

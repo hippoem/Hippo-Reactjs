@@ -14,7 +14,7 @@ class MainSlide extends React.Component {
 							<p className="mslrenttext">Book Online for the Best Rates with Hippo car rent</p>
 							<h3 className="mslrentcate">สถานที่รับรถ</h3>
 
-							<form>
+							<form method="get" action="/search">
 								<div className="mslrentpart">
 									<input name="" type="text" className="mslrsform" placeholder="Search Location"/>
 									<input name="" type="button"  className="mslrsgo"/>
