@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from 'views/Home';
+// import Home from 'views/Home';
+import Search from 'views/Search';
 
 
 ReactDOM.render(
-  <Home />,
+  <Search />,
   document.getElementById('root')
 );

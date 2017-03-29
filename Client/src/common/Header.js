@@ -9,7 +9,7 @@ import Thai from '../styles/images/Thai.png'
 class Header extends React.Component {
     render(){
         return(
-        <div id="header">
+        <div id="header" className={this.props.bgblue}>
 			<a href="#"><img alt="" className="logo" src={Logo} /></a>
 			<div className="headoption">
 				<a href="#" className="hmore">Learn More</a>
