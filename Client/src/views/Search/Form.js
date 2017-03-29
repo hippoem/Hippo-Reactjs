@@ -41,6 +41,7 @@ class Form extends React.Component {
                     <div className="findcart_b">
                         <div className="wrap">
                             <div className="fcboption">
+
                                 <div className="fcabox z">
                                     <p>ระยะห่างของจุดรับรถ กับ สถานที่เลือกรับรถ</p>
                                     <select name="" className="fcatype">
@@ -50,6 +51,7 @@ class Form extends React.Component {
                                         <option>Option 3</option>
                                     </select>
                                 </div>
+
                                 <div className="fcabox z">
                                     <p>ช่วงราคาเช่ารถ</p>
                                     <div className="pricerangenumber" id="pricerangenumber">10,000</div>
@@ -61,6 +63,7 @@ class Form extends React.Component {
                                         max="10000"
                                         step="500"/>
                                 </div>
+
                                 <div className="fcabox w">
                                     <p>ระยะทางที่รถขับไป</p>
                                     <select name="" className="fcatype">
@@ -70,9 +73,11 @@ class Form extends React.Component {
                                         <option>Option 3</option>
                                     </select>
                                 </div>
+
                             </div>
                         </div>
                     </div>
+                    <div className="clear"></div>
                 </div>
             </div>
 

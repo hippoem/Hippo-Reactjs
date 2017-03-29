@@ -3,6 +3,7 @@ import Header from '../../common/Header'
 import Footer from '../../common/Footer'
 import Form from './Form'
 import ItemList from './ItemList'
+import './Search.css'
 
 class Search extends React.Component {
     render() {
