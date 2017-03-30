@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../../common/Header'
 import Footer from '../../common/Footer'
-import Form from './Form'
-import ItemList from './ItemList'
+
+import {Form, ItemList} from './index'
 import './Search.css'
 
 class Search extends React.Component {

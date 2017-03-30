@@ -24,7 +24,7 @@ class Header extends React.Component {
 				<a href="#"><img alt="" className="hlang" src={Thai} /></a>
 				<div className="hsignin">
 					<div className="hsignbox">
-						<img alt="" src="images/01-main-th_24.png" />
+						<img alt="" src="../images/01-main-th_24.png" />
 						<div className="hsigndetail">
 							<h3 className="hsignhead"><a href="#">เข้าสู่ระบบ</a></h3>
 							<p className="hsignregist"><a href="#">สมัครสมาชิก</a></p>
